@@ -1,5 +1,6 @@
 $btnradius:50px;
 $ukuran-font:10px;
+$fs:15px;
 $active:#636363;
 $con-height:800px;
 $fw:700;
@@ -59,6 +60,7 @@ strong{
 #section{
   background-color: #0081FF;
   padding: 10px;
+  height: 420px;
 }
 #section h5{
   font-family: $fontfamily1;
@@ -85,5 +87,20 @@ strong{
     }
   }
 .media-body h5{
+  font-weight: $fw;
+}
+.media-body p{
+  font-size: $fs;
+}
+.hero-services{
+  background-color: #007AF3;
+  height: 270px;
+  color: $color-heading2;
   font-family: $fontfamily2;
+}
+.media img{
+  width: 50px;
+}
+.lorem-bottom{
+  margin-top: 10px;
 }
