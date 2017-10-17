@@ -110,3 +110,25 @@ strong{
 .lorem-bottom{
   margin-top: 10px;
 }
+ul{
+  margin-top: 40px;
+  li{
+    display: inline-block;
+    a{
+      text-decoration: none;
+      padding: 10px 7px;
+      i.fa{
+      color: #4ba5fd;
+      }
+    }
+}
+}
+.services-icon{
+  background-color: #0081FF;
+  height: 150px;
+}
+.col-12 p{
+  color: $color-heading2;
+  font-family: $fontfamily2;
+  margin-top: 40px;
+}

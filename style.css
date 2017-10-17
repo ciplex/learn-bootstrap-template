@@ -86,4 +86,23 @@ strong {
 .lorem-bottom {
   margin-top: 10px; }
 
+ul {
+  margin-top: 40px; }
+  ul li {
+    display: inline-block; }
+    ul li a {
+      text-decoration: none;
+      padding: 10px 7px; }
+      ul li a i.fa {
+        color: #4ba5fd; }
+
+.services-icon {
+  background-color: #0081FF;
+  height: 150px; }
+
+.col-12 p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 40px; }
+
 /*# sourceMappingURL=style.css.map */
