@@ -8,6 +8,9 @@ $color-heading2:#fff;
 $mr-col:200px 15px;
 $fw-heading:300;
 $bs:140%;
+$sc:#0081FF;
+$fontfamily1: 'Leckerli One', cursive;
+$fontfamily2:'Montserrat', sans-serif;
 .btn-outline-warning{
   border-radius: $btnradius;
   font-size: $ukuran-font;
@@ -21,12 +24,12 @@ $bs:140%;
 }
 .display-5{
   font-weight: $fw;
-  font-family: 'Montserrat', sans-serif;
+  font-family:$fontfamily2;
 }
 strong{
   font-weight: $fw;
   color: $color-heading;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $fontfamily2;
 }
 .col-6{
   color: $color-heading2;
@@ -34,10 +37,10 @@ strong{
 }
 .col-6 h2{
   font-weight: $fw-heading;
-  font-family: 'Montserrat', sans-serif;
+  font-family:$fontfamily2;
 }
 .col-6 h5{
-  font-family: 'Leckerli One', cursive;
+  font-family: $fontfamily1;
 }
 .typo{
   color: #636363;
@@ -51,5 +54,36 @@ strong{
   font-weight: $fw;
   text-transform: uppercase;
   font-size: 11px;
-  font-family: 'Montserrat', sans-serif;
+  font-family:$fontfamily2;
+}
+#section{
+  background-color: #0081FF;
+  padding: 10px;
+}
+#section h5{
+  font-family: $fontfamily1;
+  color: $color-heading2;
+}
+#section h3{
+  font-family: $fontfamily2;
+  color: $color-heading2;
+  font-weight: $fw;
+}
+#section p{
+  color: $color-heading2;
+}
+#section{
+}
+  .container{
+}
+  .row{
+    .col-8{
+      margin-top: 60px;
+    }
+    .col-4{
+      margin-top: 110px;
+    }
+  }
+.media-body h5{
+  font-family: $fontfamily2;
 }
