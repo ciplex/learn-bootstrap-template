@@ -1,0 +1,49 @@
+$btnradius:50px;
+$ukuran-font:10px;
+$active:#636363;
+$con-height:600px;
+$fw:700;
+$color-heading:#0081ff;
+$color-heading2:#fff;
+$mr-col:100px 15px;
+$fw-heading:300;
+
+.btn-outline-warning{
+  border-radius: $btnradius;
+  font-size: $ukuran-font;
+  padding: 6px 30px;
+}
+.container-fluid{
+  background: url(assets/bg-header.jpg);
+  height: $con-height;
+}
+.display-5{
+  font-weight: $fw;
+  font-family: 'Montserrat', sans-serif;
+}
+strong{
+  font-weight: $fw;
+  color: $color-heading;
+  font-family: 'Montserrat', sans-serif;
+}
+.col-6{
+  color: $color-heading2;
+  margin: $mr-col;
+}
+.col-6 h2{
+  font-weight: $fw-heading;
+  font-family: 'Montserrat', sans-serif;
+}
+.col-6 h5{
+  font-family: 'Leckerli One', cursive;
+}
+.typo{
+  color: #636363;
+}
+.btn-lg{
+  border-radius: 50px;
+  text-align: center;
+  padding: 12px 25px;
+  margin-top: 10px;
+  font-size: 15px;
+}
