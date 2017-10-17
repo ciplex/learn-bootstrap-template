@@ -23,6 +23,12 @@ $fontfamily2:'Montserrat', sans-serif;
   background-size: 140%;
 
 }
+.navbar-nav{
+  li{
+    padding: 10px 10px;
+    font-family: $fontfamily2;
+  }
+}
 .display-5{
   font-weight: $fw;
   font-family:$fontfamily2;
