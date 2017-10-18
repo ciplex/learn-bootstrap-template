@@ -97,27 +97,31 @@ strong{
     .col-8{
       margin-top: 60px;
     }
-    .col-4{
-      margin-top: 110px;
+    .col-12{
+      margin-top: 50px;
     }
   }
 .media-body h5{
   font-weight: $fw;
+}
+.col-8 h3{
+  font-size: 36px;
+}
+.col-4 p{
+  margin-top: 100px;
+  font-size: 22px;
 }
 .media-body p{
   font-size: $fs;
 }
 .hero-services{
   background-color: #007AF3;
-  height: 270px;
+  padding: 10px 0;
   color: $color-heading2;
   font-family: $fontfamily2;
 }
 .media img{
   width: 50px;
-}
-.lorem-bottom{
-  margin-top: 10px;
 }
 ul{
   margin-top: 40px;
@@ -134,10 +138,5 @@ ul{
 }
 .services-icon{
   background-color: #0081FF;
-  height: 150px;
-}
-.col-12 p{
-  color: $color-heading2;
-  font-family: $fontfamily2;
-  margin-top: 40px;
+  padding: 30px 0;
 }
