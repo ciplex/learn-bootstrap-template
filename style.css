@@ -4,10 +4,11 @@
   padding: 6px 30px;
   text-transform: uppercase; }
 
-.container-fluid {
+.container-fluid.image {
   background: url(assets/bg-header.jpg);
+  background-repeat: no-repeat;
   height: 800px;
-  background-size: 140%; }
+  background-size: 145%; }
 
 .navbar-nav {
   margin: 0; }
@@ -82,7 +83,7 @@ strong {
 
 .col-4 p {
   margin-top: 100px;
-  font-size: 22px; }
+  font-size: 20px; }
 
 .media-body p {
   font-size: 15px; }
@@ -112,5 +113,49 @@ strong {
     .services-icon ul li a i.fa {
       color: #4ba5fd;
       font-size: 20px; }
+
+.title-portofolio {
+  font-family: "Leckerli One", cursive;
+  font-size: 23px;
+  color: #8799A3; }
+
+.heading-prtofolio {
+  color: #252525;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; }
+
+#portofolio {
+  padding: 80px 0;
+  height: 200px; }
+
+.btn-info {
+  background-color: #1CBBB3;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  border-radius: 50px; }
+
+#image2 img {
+  height: 655px; }
+
+#image3 img {
+  height: 260px;
+  width: 100%; }
+
+#image4 img {
+  height: 400px;
+  width: 100%; }
+
+#image5 img {
+  height: 260px;
+  width: 100%; }
+
+#image6 img {
+  height: 255px;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
