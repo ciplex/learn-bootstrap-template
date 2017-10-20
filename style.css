@@ -109,15 +109,17 @@ strong {
 
 .share-icon li {
   display: inline-block; }
-  .share-icon li a {
-    text-decoration: none;
-    padding: 10px 7px; }
-    .share-icon li a i.fa {
-      color: #4ba5fd;
-      font-size: 20px; }
 
-.share-icon li a.icon-active {
-  color: white !important; }
+.share-icon li a {
+  text-decoration: none;
+  padding: 10px 7px; }
+
+.share-icon li.active a i.fa {
+  color: #fff !important; }
+
+.share-icon li i.fa {
+  color: #4ba5fd;
+  font-size: 20px; }
 
 .title-portofolio {
   font-family: "Leckerli One", cursive;
@@ -143,6 +145,9 @@ strong {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   border-radius: 50px; }
+
+#fluid-portofolio {
+  padding: 0; }
 
 #image2 img {
   height: 655px; }
@@ -213,5 +218,45 @@ strong {
   width: 20px;
   height: 20px;
   margin-left: 10px; }
+
+#testimonial {
+  padding: 140px 0;
+  background: url(assets/bg-client.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 620px; }
+
+.title-testimonial {
+  font-family: "Leckerli One", cursive;
+  font-weight: 400;
+  font-size: 26px;
+  color: #FFFFFF; }
+
+.heading-testimonial {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  color: #FFFFFF; }
+
+.slide-text {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center; }
+
+.profile {
+  width: 43px;
+  height: 50%;
+  border-radius: 100%;
+  padding-right: 10px; }
+
+.title-profile {
+  color: #FFFF00;
+  font-family: "Montserrat", sans-serif; }
+
+.text-profile {
+  color: #5d6071;
+  font-family: "Montserrat", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
