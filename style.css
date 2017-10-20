@@ -29,15 +29,15 @@ strong {
   color: #0081ff;
   font-family: "Montserrat", sans-serif; }
 
-.col-lg-5 {
+#hero-header {
   color: #fff;
   margin: 200px 15px; }
 
-.col-lg-5 h2 {
+#hero-header h2 {
   font-weight: 300;
   font-family: "Montserrat", sans-serif; }
 
-.col-lg-5 h5 {
+#hero-header h5 {
   font-family: "Leckerli One", cursive; }
 
 .typo {
@@ -55,25 +55,26 @@ strong {
   font-size: 11px;
   font-family: "Montserrat", sans-serif; }
 
-#section {
+#hero {
   background-color: #0081FF;
-  padding: 10px;
+  padding: 80px;
   height: 420px; }
 
-#section h5 {
+#hero h5 {
   font-family: "Leckerli One", cursive;
   color: #fff; }
 
-#section h3 {
+#hero h3 {
   font-family: "Montserrat", sans-serif;
   color: #fff;
   font-weight: 700; }
 
-#section p {
-  color: #fff; }
-
-#section .row .col-8 {
-  margin-top: 60px; }
+#hero p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-top: 40px;
+  font-size: 17px; }
 
 .media-body h5 {
   font-weight: 700; }
@@ -114,7 +115,8 @@ strong {
   text-decoration: none;
   padding: 10px 7px; }
 
-.share-icon li.active a i.fa {
+.share-icon li.active a i.fa,
+.share-icon a i.fa:hover {
   color: #fff !important; }
 
 .share-icon li i.fa {
@@ -149,24 +151,38 @@ strong {
 #fluid-portofolio {
   padding: 0; }
 
-#image2 img {
-  height: 655px; }
+#portofolio {
+  overflow: hidden; }
 
-#image3 img {
+#main-portofolio {
+  overflow: hidden; }
+
+#image2 {
+  height: 664px;
+  transform: scale(1.1); }
+
+#image3 {
   height: 260px;
-  width: 100%; }
+  width: 100%;
+  transform: scale(2.1);
+  object-fit: cover; }
 
-#image4 img {
+#image4 {
   height: 400px;
-  width: 100%; }
+  width: 100%;
+  transform: scale(1.1);
+  overflow: hidden;
+  margin-top: -1px; }
 
-#image5 img {
+#image5 {
   height: 260px;
-  width: 100%; }
+  width: 100%;
+  transform: scale(1.1); }
 
-#image6 img {
-  height: 255px;
-  width: 100%; }
+#image6 {
+  height: 264px;
+  width: 100%;
+  transform: scale(1.1); }
 
 .card-img-overlay {
   background-color: rgba(0, 0, 0, 0.7); }

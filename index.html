@@ -16,6 +16,10 @@
       <div class="container">
       <nav class="navbar navbar-expand-sm navbar-dark">
     <a class="navbar-brand" href="#"><img src="assets/logo.png" alt="logo" width="120px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav mr-auto ml-auto">
       <li class="nav-item"><a href="#" class="nav-link active">Intro</a></li>
         <li class="nav-item"><a href="#" class="nav-link">About me</a></li>
@@ -24,14 +28,14 @@
         <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
         <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
     </ul>
-    <form class="form-inline">
-      <button type="submit" class="btn btn-outline-warning my-2 my-sm-0">Buy It Now!</button>
-    </form>
+    <form class="form-inline my-2">
+        <button class="btn btn-outline-warning" type="submit">BUy It Now!</button>
+      </form>
   </nav>
     </div>
       <div class="container">
       <div class="row">
-        <div class="col-lg-5">
+        <div class="col-12 col-lg-5" id="hero-header">
           <h5>Hi There!</h5>
     <h1 class="display-5">My Name Is <strong>Daniel</strong></h1>
     <h2>I'm a graphic Designer</h2>
@@ -40,23 +44,25 @@
   parum, anteposuerit etiam processus dynamicus.</p>
      <a class="btn btn-dark" href="#" role="button" id="btn-hero">About me</a>
   </div>
-  <div class="col-lg-7"></div>
+  <div class="col-12 col-lg-7"></div>
     </div>
         </div>
       </div>
+        </div>
 
-<section id="section">
+<section id="hero">
   <div class="container">
 <div class="row">
-    <div class="col-8 col-sm-6">
+    <div class="col-12 col-md-4">
       <h5>About me...</h5>
       <h3>Investigationes
       demonstraverunt lectores legere me lius quod ii legunt saepius.</h3>
   </div>
-        <div class="col-4 col-sm-6">
+        <div class="col-12 col-lg-5">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse. <br><br>Eodem modo typi, qui  nunc nobis videntur parum.</p>
-
+          <div class="col-12 col-md-3"></div>
   </div>
+</div>
 </div>
 </section>
 <div class="hero-services">
@@ -136,24 +142,24 @@
 <section id="main-portofolio">
   <div class="container-fluid" id="fluid-portofolio">
     <div class="row no-gutters">
-      <div class="col-12 col-md-6" id="image1">
-        <img  src="assets/image-1.jpg" alt="Card image cap" class="img-fluid">
+      <div class="col-12 col-md-6" id="portofolio">
+        <img  src="assets/image-1.jpg" alt="Card image cap" class="img-fluid" id="image1">
         <div class="card-img-overlay" id="text-image">
              <h4 class="card-title" id="title-card">User Interface</h4>
 <h5 class="card-text" id="text-card">Socialister - Mobile UI Kit For Photoshop</h5>
 <a href=""><img src="assets/details-icon.png" alt="details-icon"></a> <a href=""><img src="assets/heart-icon.png" alt="heart-icon"></a>
 </div>
-          <div class="row no-gutters">
-          <div class="col-12 col-md-6" id="image3">
-            <img src="assets/image-3.jpg" alt="image3" class="img-fluid">
+          <div class="row no-gutters" id="main-portofolio">
+          <div class="col-12 col-md-6" id="portofolio">
+            <img src="assets/image-3.jpg" alt="image3" class="img-fluid" id="image3">
             <div class="card-img-overlay" id="text-image">
                  <h4 class="card-title" id="title-card">User Interface</h4>
    <h5 class="card-text" id="text-card">Socialister - Mobile UI Kit For Photoshop</h5>
   <a href=""><img src="assets/details-icon.png" alt="details-icon"></a> <a href=""><img src="assets/heart-icon.png" alt="heart-icon"></a>
  </div>
           </div>
-          <div class="col-12 col-md-6" id="image5">
-            <img src="assets/image-5.jpg" alt="image5" class="img-fluid">
+          <div class="col-12 col-md-6" id="portofolio">
+            <img src="assets/image-5.jpg" alt="image5" class="img-fluid" id="image5">
             <div class="card-img-overlay" id="image-active">
                  <h4 class="card-title" id="title-card">User Interface</h4>
    <h5 class="card-text" id="text-card">Socialister - Mobile UI Kit For Photoshop</h5>
@@ -162,24 +168,24 @@
           </div>
         </div>
         </div>
-      <div class="col-12 col-md-3" id="image2">
-        <img src="assets/image-2.jpg" alt="op" class="img-fluid">
+      <div class="col-12 col-md-3" id="portofolio">
+        <img src="assets/image-2.jpg" alt="op" class="img-fluid" id="image2">
         <div class="card-img-overlay" id="text-image">
              <h4 class="card-title" id="title-card">User Interface</h4>
 <h5 class="card-text" id="text-card">Socialister - Mobile UI Kit For Photoshop</h5>
 <a href=""><img src="assets/details-icon.png" alt="details-icon"></a> <a href=""><img src="assets/heart-icon.png" alt="heart-icon"></a>
 </div>
       </div>
-      <div class="col-12 col-md-3" id="image4">
-        <img src="assets/image-4.jpg" alt="op" class="img-fluid">
+      <div class="col-12 col-md-3" id="portofolio">
+        <img src="assets/image-4.jpg" alt="op" class="img-fluid" id="image4">
         <div class="card-img-overlay" id="text-image">
              <h4 class="card-title" id="title-card">User Interface</h4>
 <h5 class="card-text" id="text-card">Socialister - Mobile UI Kit For Photoshop</h5>
 <a href=""><img src="assets/details-icon.png" alt="details-icon"></a> <a href=""><img src="assets/heart-icon.png" alt="heart-icon"></a>
 </div>
         <div class="row no-gutters">
-        <div class="col-12 col-md-12" id="image6">
-        <img src="assets/image-6.jpg" alt="op" class="img-fluid">
+        <div class="col-12 col-md-12"id="portofolio">
+        <img src="assets/image-6.jpg" alt="op" class="img-fluid" id="image6">
         <div class="card-img-overlay" id="text-image">
              <h4 class="card-title" id="title-card">User Interface</h4>
 <h5 class="card-text" id="text-card">Socialister - Mobile UI Kit For Photoshop</h5>
@@ -203,13 +209,13 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row">
-            <div class="col-6 col-md-3"></div>
-            <div class="col-6 col-sm-6"><p
+            <div class="col-12 col-md-3"></div>
+            <div class="col-12 col-sm-6"><p
             class="slide-text">Investigationes lectores legere me lius quod ii legunt saepius nunc putamus parum claram.</p></div>
             <div class="col-12 col-md-6"></div>
           </div>
           <div class="row justify-content-center">
-            <div class="media col-md-3" id="profile">
+            <div class="media col-12 col-md-3" id="profile">
             <img class="mr-3" src="assets/profile.png" alt="Generic placeholder image">
 <div class="media-body text-left">
     <h5 class="mt-0 title-profile">Christina Smith</h5>
@@ -221,13 +227,13 @@
 
           <div class="carousel-item">
             <div class="row">
-            <div class="col-6 col-md-3"></div>
-            <div class="col-6 col-sm-6"><p
+            <div class="col-12 col-md-3"></div>
+            <div class="col-12 col-sm-6"><p
             class="slide-text">Investigationes lectores legere me lius quod ii legunt saepius nunc putamus parum claram.</p></div>
-            <div class="col-6 col-md-3"></div>
+            <div class="col-12 col-md-3"></div>
             </div>
             <div class="row justify-content-center">
-              <div class="media col-md-3" id="profile">
+              <div class="media col-12 col-md-3" id="profile">
                   <img class="mr-3" src="assets/profile.png" alt="Generic placeholder image">
   <div class="media-body text-left">
       <h5 class="mt-0 title-profile">Christina Smith</h5>
@@ -238,13 +244,13 @@
           </div>
           <div class="carousel-item">
             <div class="row">
-            <div class="col-6 col-md-3"></div>
-            <div class="col-6 col-sm-6"><p
+            <div class="col-12 col-md-3"></div>
+            <div class="col-12 col-sm-6"><p
             class="slide-text">Investigationes lectores legere me lius quod ii legunt saepius nunc putamus parum claram.</p></div>
-            <div class="col-6 col-md-3"></div>
+            <div class="col-12 col-md-3"></div>
             </div>
             <div class="row justify-content-center">
-              <div class="media col-md-3" id="profile">
+              <div class="media col-12 col-md-3" id="profile">
                   <img class="mr-3" src="assets/profile.png" alt="Generic placeholder image">
   <div class="media-body text-left">
       <h5 class="mt-0 title-profile">Christina Smith</h5>

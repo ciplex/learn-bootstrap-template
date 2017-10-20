@@ -48,15 +48,15 @@ strong{
   color: $color-heading;
   font-family: $fontfamily2;
 }
-.col-lg-5{
+#hero-header{
   color: $color-heading2;
   margin: $mr-col;
 }
-.col-lg-5 h2{
+#hero-header h2{
   font-weight: $fw-heading;
   font-family:$fontfamily2;
 }
-.col-lg-5 h5{
+#hero-header h5{
   font-family: $fontfamily1;
 }
 .typo{
@@ -74,32 +74,28 @@ strong{
   font-size: 11px;
   font-family:$fontfamily2;
 }
-#section{
+#hero{
   background-color: #0081FF;
-  padding: 10px;
+  padding: 80px;
   height: 420px;
 }
-#section h5{
+#hero h5{
   font-family: $fontfamily1;
   color: $color-heading2;
 }
-#section h3{
+#hero h3{
   font-family: $fontfamily2;
   color: $color-heading2;
   font-weight: $fw;
 }
-#section p{
+#hero p{
   color: $color-heading2;
+  font-family: $fontfamily2;
+  font-weight: 400;
+  margin-top: 40px;
+  font-size: 17px;
 }
-#section{
-  .container{
-}
-  .row{
-    .col-8{
-      margin-top: 60px;
-    }
-  }
-}
+
 .media-body h5{
   font-weight: $fw;
 }
@@ -140,7 +136,8 @@ strong{
       text-decoration: none;
       padding: 10px 7px;
     }
-    .share-icon li.active a i.fa{
+    .share-icon li.active a i.fa,
+    .share-icon  a i.fa:hover{
         color: #fff!important;
     }
       .share-icon li i.fa{
@@ -175,27 +172,41 @@ strong{
 #fluid-portofolio{
   padding: 0;
 }
-#image1 img{
+#portofolio{
+  overflow: hidden;
+}
+#main-portofolio{
+  overflow: hidden;
+}
+#image1{
 
 }
-#image2 img{
-  height: 655px;
+#image2{
+  height: 664px;
+  transform: scale(1.1);
 }
-#image3 img{
+#image3{
   height: 260px;
   width: 100%;
+  transform: scale(2.1);
+  object-fit: cover;
 }
-#image4 img{
+#image4{
   height: 400px;
   width: 100%;
+  transform: scale(1.1);
+  overflow: hidden;
+  margin-top: -1px;
 }
-#image5 img{
+#image5{
   height: 260px;
   width: 100%;
+  transform: scale(1.1);
 }
-#image6 img{
-  height: 255px;
+#image6{
+  height: 264px;
   width: 100%;
+  transform: scale(1.1);
 }
 .card-img-overlay{
   background-color: rgba(0, 0, 0, 0.7);
