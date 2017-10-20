@@ -182,7 +182,12 @@ strong {
   opacity: 0; }
 
 #text-image:hover {
-  opacity: 1; }
+  opacity: 1;
+  transition-delay: 0s, 1s;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; }
 
 #text-card {
   font-size: 21px;
@@ -224,7 +229,7 @@ strong {
   background: url(assets/bg-client.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 620px; }
+  height: 800px; }
 
 .title-testimonial {
   font-family: "Leckerli One", cursive;
@@ -253,5 +258,21 @@ strong {
 .text-profile {
   color: #5d6071;
   font-family: "Montserrat", sans-serif; }
+
+#profile img {
+  width: 20%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 100%; }
+
+#profile a img:hover {
+  color: yellow; }
+
+#client {
+  text-align: center;
+  padding: 60px 0; }
+
+.client-logo {
+  width: 60%; }
 
 /*# sourceMappingURL=style.css.map */

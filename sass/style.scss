@@ -212,6 +212,11 @@ strong{
 }
 #text-image:hover{
   opacity: 1;
+  transition-delay: 0s, 1s;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 #text-card{
   font-size: 21px;
@@ -255,7 +260,7 @@ strong{
   background: url(assets/bg-client.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 620px;
+  height: 800px;
 }
 
 .title-testimonial{
@@ -285,4 +290,20 @@ strong{
 .text-profile{
   color: #5d6071;
   font-family: $fontfamily2;
+}
+#profile img{
+  width: 20%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 100%
+}
+#profile a img:hover{
+  color: yellow;
+}
+#client{
+  text-align: center;
+  padding: 60px 0;
+}
+.client-logo{
+  width: 60%;
 }
