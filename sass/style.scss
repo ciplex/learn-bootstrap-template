@@ -317,3 +317,87 @@ strong{
 .client-logo{
   width: 70%;
 }
+/* -- blog -- */
+#blog{
+  padding: 100px;
+}
+#main-blog1{
+  padding: 0px 30px 0px 0px;
+}
+.title-blog{
+  font-family: $fontfamily1;
+  font-weight: 300;
+  font-size: 15px;
+  color: #BBC7CD;
+}
+.heading-blog{
+  font-family: $fontfamily2;
+  font-size: 30px;
+  font-weight: $fw;
+  color: #252525;
+}
+.text-blog{
+  color: #636363;
+  font-weight: 300;
+  font-family: $fontfamily2;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+#post-foto{
+  background: url(assets/blog-1.png);
+  padding: 88px;
+
+}
+.title-blog2{
+  color: #8799a3;
+  font-family: $fontfamily2;
+  font-weight: $fw;
+  font-size: 16px;
+}
+.heading-blog2{
+  font-family: $fontfamily2;
+  color: #FFF;
+  font-weight: $fw;
+  font-size: 22px;
+}
+.text-blog2{
+  color: #FFF;
+  font-size: 15px;
+  font-family: $fontfamily2;
+  font-weight: 300;
+}
+.btn-readmore{
+  text-transform: uppercase;
+  padding: 10px 22px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  font-size: 10px;
+  font-family: $fontfamily2;
+  color: #252525;
+  border-radius: 50px;
+  background-color:#FCFA2F;
+  font-weight: $fw;
+}
+
+#blog-3{
+  background-color: #007EF9;
+  text-align: center;
+  padding: 45px;
+}
+.author-blog3{
+  color: #FCFA2F;
+  font-weight: 300;
+  font-size: 17px;
+}
+.quote-blog3{
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 300;
+  font-family: 'Coustard', serif;
+}
+.text-blog3{
+  color: #FFF;
+  font-size: 17px;
+  font-weight: 900;
+}
