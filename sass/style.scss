@@ -563,23 +563,25 @@ h4{
   .email{
     color: #007EFA;
   }
-  .footer-icon{
-  padding-left: 10px;
-  padding-top: 20px;
-   li{
-      display: inline-block;
+}
 
-    }
-  a{
-    padding: 10px 10px;
-    i{
+.footer-icon li{
+  display: inline-block;
+}
+  .footer-icon li a{
+    padding: 8px 5px;
+  }
+    .footer-icon li a i{
       font-size: 16px;
       color: #434343;
-    }
-
-  }
-
 }
+      .footer-icon li a i.active{
+        color: #8698a2!important;
+      }
+
+.text-input{
+  color: #636363;
+  font-family: $fontfamily2;
 }
 #input{
 [type=text],
@@ -587,10 +589,6 @@ h4{
 {
   border-radius: 50px;
   background-color: #2c2c2c;
-}
-.text-input{
-  color: #636363;
-  font-family: $fontfamily2;
 }
 #textarea{
   border-radius: 15px;

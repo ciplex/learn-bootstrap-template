@@ -493,24 +493,28 @@ strong {
   color: #636363; }
 #footer-address .email {
   color: #007EFA; }
-#footer-address .footer-icon {
-  padding-left: 10px;
-  padding-top: 20px; }
-  #footer-address .footer-icon li {
-    display: inline-block; }
-  #footer-address .footer-icon a {
-    padding: 10px 10px; }
-    #footer-address .footer-icon a i {
-      font-size: 16px;
-      color: #434343; }
+
+.footer-icon li {
+  display: inline-block; }
+
+.footer-icon li a {
+  padding: 8px 5px; }
+
+.footer-icon li a i {
+  font-size: 16px;
+  color: #434343; }
+
+.footer-icon li a i.active {
+  color: #8698a2 !important; }
+
+.text-input {
+  color: #636363;
+  font-family: "Montserrat", sans-serif; }
 
 #input [type=text],
 #input [type=email] {
   border-radius: 50px;
   background-color: #2c2c2c; }
-#input .text-input {
-  color: #636363;
-  font-family: "Montserrat", sans-serif; }
 #input #textarea {
   border-radius: 15px;
   background-color: #2c2c2c; }
