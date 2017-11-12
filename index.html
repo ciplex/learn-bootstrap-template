@@ -12,43 +12,46 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <div class="container-fluid image">
-      <div class="container">
-      <nav class="navbar navbar-expand-sm navbar-dark">
-    <a class="navbar-brand" href="#"><img src="assets/logo.png" alt="logo" width="120px"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav mr-auto ml-auto">
-      <li class="nav-item"><a href="#" class="nav-link active">Intro</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About me</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Portofolio</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Clients</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-    </ul>
-    <form class="form-inline my-2">
-        <button class="btn btn-outline-warning" type="submit">BUy It Now!</button>
-      </form>
-  </nav>
-    </div>
-      <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-5" id="hero-header">
-          <h5>Hi There!</h5>
-    <h1 class="display-5">My Name Is <strong>Daniel</strong></h1>
-    <h2>I'm a graphic Designer</h2>
-    <p class="typo">Claritas est etiam processus dynamicu, qui
-    sequitur mutationem consuetudium lectorum
-  parum, anteposuerit etiam processus dynamicus.</p>
-     <a class="btn btn-dark" href="#" role="button" id="btn-hero">About me</a>
-  </div>
-  <div class="col-12 col-lg-7"></div>
-    </div>
-        </div>
+    <div id="container-fluid" class="image">
+      <div class="editbg">
+        <div class="container">
+        <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#"><img src="assets/logo.png" alt="logo" width="120px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto ml-auto">
+        <li class="nav-item"><a href="#" class="nav-link active">Intro</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Portofolio</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Clients</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+      </ul>
+      <form class="form-inline my-2">
+          <button class="btn btn-outline-warning" type="submit">Buy It Now!</button>
+        </form>
+    </nav>
       </div>
+        <div class="container">
+        <div class="row">
+          <div class="col-lg-5" id="hero-header">
+            <h5>Hi There!</h5>
+      <h1 class="title-hero">My Name Is <strong>Daniel</strong></h1>
+      <h2>I'm a graphic Designer</h2>
+      <p class="typo">Claritas est etiam processus dynamicus, qui
+      sequitur mutationem consuetudium lectorum
+    parum, anteposuerit etiam processus dynamicus.</p>
+       <a class="btn btn-dark" href="#" role="button" id="btn-hero">About me</a>
+    </div>
+    <div class="col-lg-7"></div>
+      </div>
+          </div>
         </div>
+          </div>
+      </div>
+
 
 <section id="hero">
   <div class="container">
@@ -291,75 +294,85 @@
 <!-- blog -->
 <section id="blog">
   <div class="container">
-  <div class="row">
-    <div class=" col-12 col-lg-6 no-gutters" id="main-blog1">
-    <div class="col-12" id="blog-1">
-      <h4 class="title-blog">BLog</h4>
+  <div class="row justify-content-between">
+    <div class=" col-12 col-lg-6 px-0 px-sm-3 no-gutters ">
+    <div class="col-12 mb-5 px-2">
+      <h4 class="title-blog mb-5">BLog</h4>
       <h2 class="heading-blog">Do Not Miss <br>the Useful Articles</h2>
       <p class="text-blog">Mirum est Notare quam littera gothica. quam nunc parum claram.</p>
   </div>
 
-      <div class="col-12" id="blog-3">
+      <div class="col-12 pt-4 pb-5 mt-5" id="blog-3">
         <p class="text-blog3">6 october</p>
         <q class="quote-blog3">Eodem modo typi,qui nunc nobis videntur parum clari, sollemnes parum</q>
         <p class="author-blog3">Johnathan Miller</p>
       </div>
     </div>
-<div class="col-lg-6 " id="post-foto">
+<div class="col-lg-6  px-0 px-sm-3 mt-4" id="post-foto">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
+    <ol class="carousel-indicators justify-content-start">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <p class="title-blog2">9 october</p>
-        <h2 class="heading-blog2">Gallery Post  Format</h2>
-        <p class="text-blog2">Investigationes demonstraverunt  lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus.</p>
-        <button type="button" class="btn btn-warning btn-readmore">Read More</button>
+        <img src="assets/blog-1.png" alt="Blog-Images">
+        <div class="carousel-caption text-left">
+          <span class="mb-4 d-block">9 october</span>
+          <h2 class="mb-4 d-block">Gallery Post  Format</h2>
+          <p>Investigationes demonstraverunt  lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus.</p>
+          <button type="button" class="btn btn-warning btn-readmore">Read More</button>
+        </div>
       </div>
       <div class="carousel-item">
-        <p class="title-blog2">9 october</p>
-        <h2 class="heading-blog2">Gallery Post  Format</h2>
-        <p class="text-blog2">Investigationes demonstraverunt  lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus.</p>
-        <button type="button" class="btn btn-warning btn-readmore">Read More</button>
+        <img src="assets/bg-contact.jpg" alt="Blog-Images">
+        <div class="carousel-caption text-left">
+          <span class="mb-4 d-block">9 october</span>
+          <h2 class="mb-4 d-block">Gallery Post  Format</h2>
+          <p>Investigationes demonstraverunt  lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus.</p>
+          <button type="button" class="btn btn-warning btn-readmore">Read More</button>
+        </div>
       </div>
       <div class="carousel-item">
-        <p class="title-blog2">9 october</p>
-        <h2 class="heading-blog2">Gallery Post  Format</h2>
-        <p class="text-blog2">Investigationes demonstraverunt  lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus.</p>
-        <button type="button" class="btn btn-warning btn-readmore">Read More</button>
+        <img src="assets/bg-header.jpg" alt="Blog-Images">
+        <div class="carousel-caption text-left">
+          <span class="mb-4 d-block">9 october</span>
+          <h2 class="mb-4 d-block">Gallery Post  Format</h2>
+          <p>Investigationes demonstraverunt  lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus.</p>
+          <button type="button" class="btn btn-warning btn-readmore">Read More</button>
+        </div>
       </div>
     </div>
   </div>
     </div>
-    <div class="row mt-5">
-      <div class="col-12 col-lg-3" id="blog4">
-        <img src="assets/blog-2.png" alt="op" class="img-fluid" id="blog4-image">
-        <div class="card-img-overlay">
+
+    <div class="row mt-4 justify-content-between no-gutters">
+      <div class="col-12 col-lg-3 px-0 px-sm-3" id="blog4">
+        <img src="assets/blog-2.png" alt="op" class="img-fluid">
+        <div class="card-img-overlay py-4 ml-3">
         <p class="card-text">3 September</p>
         <h4 class="card-title">Standard Post Format</h4>
           </div>
       </div>
-      <div class="col-12 col-lg-3" id="blog5">
-        <img src="assets/blog-3.png" alt="op" class="img-fluid" id="blog5-image">
-        <div class="card-img-overlay text-center">
+      <div class="col-12 col-lg-3 px-0 px-sm-3 text-center" id="blog5">
+        <img src="assets/blog-3.png" alt="op" class="img-fluid">
+        <div class="card-img-overlay mx-0 mx-sm-3">
         <p class="card-text">20 September</p>
         <h4 class="card-title">Video Post Format</h4>
         <img src="assets/play-icon.png" alt="play icon" class="play-icon">
           </div>
       </div>
-      <div class="col-12 col-lg-4" id="blog6">
-        <div class="card-img-overlay" id="blog6-image">
+      <div class="col-12 col-lg-4 px-0 px-sm-3" id="blog6">
+        <div class="child6 py-4 px-4">
         <p class="card-text">23 June</p>
         <h4 class="card-title">Standard Post Format without Preview Img</h4>
         <p class="text-blog6">Qui nunc nobis videntur parum clari, sollemnes legere.</p>
           </div>
       </div>
-      <div class="col-12 col-lg-2" id="blog7">
-        <div class="card-img-overlay" id="blog7-image">
-        <p class="card-text">View All Post</p>
+      <div class="col-12 col-lg-2 px-0 px-sm-3" id="blog7">
+        <div class="blog7-image d-flex">
+        <p class="card-text my-auto mx-auto">View <br>All Post</br></p>
           </div>
       </div>
   </div>
@@ -384,7 +397,7 @@
         <nav>
   <ul  class="footer-icon">
 <li><a href=""><i class="fa fa-facebook"></i></a></li>
-<li class="active"><a href=""><i class="fa fa-twitter"></i></a></li>
+<li><a href="" class="active"><i class="fa fa-twitter"></i></a></li>
 <li><a href=""><i class="fa fa-google-plus"></i></a></li>
 <li><a href=""><i class="fa fa-linkedin"></i></a></li>
   </ul>

@@ -15,15 +15,21 @@ $fontfamily2:'Montserrat', sans-serif;
 .btn-outline-warning{
   border-radius: $btnradius;
   font-size: $ukuran-font;
-  padding: 6px 30px;
+  padding: 10px 30px;
   text-transform: uppercase;
+  border-color: rgb(231, 210, 27);
+  color: rgb(231, 210, 27);
 }
-.container-fluid.image{
+#container-fluid.image{
   background: url(assets/bg-header.jpg);
+  background-size: 2010px;
   background-repeat: no-repeat;
-  height: $con-height;
-  background-size: 145%;
-
+  background-position: -60px -120px;
+}
+.editbg{
+  background-color: rgba(37, 37, 37, 0.6);
+  width: 100%;
+  height: 100%;
 }
 .navbar-nav{
   margin:0;
@@ -33,15 +39,24 @@ $fontfamily2:'Montserrat', sans-serif;
   }
   .nav-link{
     color: #FFF!important;
+    font-size: 16px;
+    font-weight: 500;
   }
   a.nav-link.active, .nav-link:hover{
     color: #8799A3!important;
   }
 }
 
-.display-5{
-  font-weight: $fw;
+.title-hero{
+  font-weight: 900;
   font-family:$fontfamily2;
+  font-size: 42px;
+
+  strong{
+    font-weight: 900;
+    font-family:$fontfamily2;
+    font-size: 42px;
+  }
 }
 strong{
   font-weight: $fw;
@@ -55,29 +70,29 @@ strong{
 #hero-header h2{
   font-weight: $fw-heading;
   font-family:$fontfamily2;
+  font-size: 28px;
 }
 #hero-header h5{
   font-family: $fontfamily1;
+  font-size: 28px;
 }
 .typo{
   color: #636363;
-  font-size: 20px;
+  font-size: 21px;
 }
 .btn-dark{
   border-radius: 50px;
   text-align: center;
-  padding: 12px 25px;
+  padding: 5px 35px;
   margin-top: 10px;
-  font-size: 15px;
-  font-weight: $fw;
+  background-color: #2b2b2b;
   text-transform: uppercase;
-  font-size: 11px;
   font-family:$fontfamily2;
+  line-height: 50px;
 }
 #hero{
   background-color: #0081FF;
   padding: 80px;
-  height: 420px;
 }
 #hero h5{
   font-family: $fontfamily1;
@@ -269,7 +284,7 @@ strong{
   background: url(assets/bg-client.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
+
 }
 
 .title-testimonial{
@@ -319,101 +334,104 @@ strong{
   width: 70%;
 }
 /* -- blog -- */
+
 #blog{
-  padding: 100px;
+  padding: 60px 0px;
   background-color: rgb(250, 241, 241);
   overflow: hidden;
 }
-#main-blog1{
-  padding: 0px 42px 0px 0px;
-}
 .title-blog{
   font-family: $fontfamily1;
-  font-weight: 300;
-  font-size: 28px;
+  font-size: 35px;
   color: #BBC7CD;
 }
 .heading-blog{
   font-family: $fontfamily2;
-  font-size: 30px;
-  font-weight: $fw;
-  color: #252525;
+  font-size: 40px;
+  font-weight: 900;
+  color: #000000;
+  line-height: 50px;
+  margin-bottom: 2rem;
 }
 .text-blog{
   color: #636363;
-  font-weight: 300;
+  font-weight: 400;
   font-family: $fontfamily2;
   font-size: 25px;
   padding-bottom: 30px;
 }
 #post-foto{
-  background: url(assets/blog-1.png);
-  padding: 140px 150px 0px 90px;
-}
-.title-blog2{
-  color: #8799a3;
-  font-family: $fontfamily2;
-  font-weight: $fw;
-  font-size: 16px;
-}
-.heading-blog2{
-  font-family: $fontfamily2;
-  color: #FFF;
-  font-weight: $fw;
-  font-size: 22px;
-}
-.text-blog2{
-  color: #FFF;
-  font-size: 17px;
-  font-family: $fontfamily2;
-  font-weight: 300;
-}
-.btn-readmore{
-  text-transform: uppercase;
-  padding: 15px 30px;
-  border: none;
-  text-align: center;
-  cursor: pointer;
-  font-size: 13px;
-  font-family: $fontfamily2;
-  color: #252525;
-  border-radius: 50px;
-  background-color:#FCFA2F;
-  font-weight: $fw;
-  margin-bottom: 111px;
-}
+  ol{
+    li{
+      padding: 2.5px 8px;
+      border-radius: 50px;
+      width: 1%;
+    }
+  }
+    img{
+      height: 564px;
+    }
+    span{
+      color: #8799a3;
+      font-family: $fontfamily2;
+      font-weight: $fw;
+    }
+      h2{
+      font-family: $fontfamily2;
+      color: #FFFFFF;
+      font-weight: 900;
+      font-size: 33px;
+    }
+    p{
+      color: #FFF;
+      font-size: 19px;
+      font-family: $fontfamily2;
+      font-weight: 300;
+    }
+    .btn-readmore{
+      text-transform: uppercase;
+      padding: 15px 30px;
+      border: none;
+      text-align: center;
+      cursor: pointer;
+      font-size: 13px;
+      font-family: $fontfamily2;
+      color: #252525;
+      border-radius: 50px;
+      background-color:#FCFA2F;
+      font-weight: $fw;
+      margin-bottom: 111px;
+    }
 
+}
 #blog-3{
   background-color: #007EF9;
   text-align: center;
-  padding: 45px;
+  margin-top: 89px;
 }
 .author-blog3{
   color: #FCFA2F;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
 }
 .quote-blog3{
   color: #FFF;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 300;
   font-family: 'Coustard', serif;
+  margin-top: 1px;
+  margin-bottom: 13px;
 }
 .text-blog3{
   color: #FFF;
   font-size: 17px;
   font-weight: 900;
 }
-
-
-
-#blog4-image{
-  height: 240px;
-  width: 90%;
-}
 #blog4{
-  .card-img-overlay{
-    padding:30px 40px;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   p{
   color: #8799a3;
@@ -425,21 +443,20 @@ h4{
   font-family: $fontfamily2;
   font-weight: 900;
   color: #252525;
-  font-size: 21px;
+  font-size: 23px;
   line-height: 30px;
   }
 }
 
-#blog5-image{
-  height: 100%;
-  width: 91%;
-}
 #blog5{
-  padding-left: 0px;
   .card-img-overlay{
-    padding: 40px 25px;
-    background-color: rgba(16, 17, 16, 0.45);
-    width: 87%;
+background-color: rgba(18, 15, 15, 0.53);
+  }
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
   }
   p{
   color: #FFF;
@@ -451,17 +468,24 @@ h4{
   font-family: $fontfamily2;
   font-weight: 900;
   color: #FFF;
-  font-size: 21px;
-  line-height: 30px;
+  font-size: 27px;
+
   }
   .play-icon{
-    width: 22%
+    width: 23%;
+    height: 32%;
   }
 }
 
 
 #blog6{
-  padding-left: 125px;
+  .child6{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px 10px rgb(229, 225, 242);
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
   p.card-text{
     color: #8799a3;
     font-family: $fontfamily2;
@@ -471,7 +495,7 @@ h4{
   h4{
     color: #252525;
     font-family: $fontfamily2;
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 900;
     line-height: 32px;
   }
@@ -479,32 +503,24 @@ h4{
     font-family: 'Coustard', serif;
     color: #636363;
     font-weight: 100;
-    font-size: 16px;
+    font-size: 17px;
   }
 }
-#blog6-image{
-  height: 100%;
-  background-color: #FFF;
-  padding: 30px 30px;
-}
-
 
 #blog7{
-  padding-right: 23px;
   p{
     text-transform: uppercase;
     font-weight: $fw;
-    font-size: 14px;
     color:#FFF;
     font-family: $fontfamily2;
     text-align: center;
   }
 }
-#blog7-image{
-  height: 100%;
-  width: 100%;
+.blog7-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   background-color:#E91E62;
-  padding: 111px 40px;
 }
 // footer contact
 #footer-contact{
@@ -547,28 +563,23 @@ h4{
   .email{
     color: #007EFA;
   }
-}
+  .footer-icon{
+  padding-left: 10px;
+  padding-top: 20px;
+   li{
+      display: inline-block;
 
-.footer-icon{
-padding-left: 10px;
-padding-top: 20px;
- li{
-    display: inline-block;
+    }
+  a{
+    padding: 10px 10px;
+    i{
+      font-size: 16px;
+      color: #434343;
+    }
+
   }
-     li.active a i.fa,
-      a i.fa:hover{
-        color: #fff!important;
-    }
-       li i.fa{
-      color: #636363;
-      font-size: 20px;
 
-    }
 }
-
-.text-input{
-  color: #636363;
-  font-family: $fontfamily2;
 }
 #input{
 [type=text],
@@ -576,6 +587,10 @@ padding-top: 20px;
 {
   border-radius: 50px;
   background-color: #2c2c2c;
+}
+.text-input{
+  color: #636363;
+  font-family: $fontfamily2;
 }
 #textarea{
   border-radius: 15px;
