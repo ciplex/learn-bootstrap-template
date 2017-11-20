@@ -10,6 +10,7 @@ $mr-col:200px 15px;
 $fw-heading:300;
 $bs:140%;
 $sc:#0081FF;
+$w:#FFFFFF;
 $fontfamily1: 'Leckerli One', cursive;
 $fontfamily2:'Montserrat', sans-serif;
 .btn-outline-warning{
@@ -33,19 +34,29 @@ $fontfamily2:'Montserrat', sans-serif;
   background-color: rgba(37, 37, 37, 0.6);
   width: 100%;
   height: 100%;
-}
 
-.nav-toggler{
-    color: #FFFFFF;
-    background-color: yellow;
-}
+  .navbar{
+    .navbar-toggler{
+    border-color: $w;
+    outline: 0;
 
+  .fa{
+    color: $w;
+
+        }
+      }
+  }
+  img{
+      width: 125px;
+  }
+}
 .navbar-nav{
   margin:0;
   li{
     padding: 10px 10px;
     font-family: $fontfamily2;
   }
+  
   .nav-link{
     color: #FFF!important;
     font-size: 16px;
