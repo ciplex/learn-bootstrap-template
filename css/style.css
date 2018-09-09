@@ -2,6 +2,7 @@
   border-radius: 50px;
   font-size: 12px;
   padding: 8px 20px;
+  cursor: pointer;
   text-transform: uppercase;
   -moz-box-shadow: 0px 0px 5px #fdfd00;
   -webkit-box-shadow: 0px 0px 5px #fdfd00;
@@ -10,7 +11,7 @@
   border-color: #fdfd00; }
 
 #container-fluid.image {
-  background: url(assets/bg-header.jpg);
+  background-image: url("../assets/bg-header.jpg");
   background-size: 2010px;
   background-repeat: no-repeat;
   background-position: -60px -120px; }
@@ -28,7 +29,7 @@
     width: 125px; }
 
 .navbar-nav {
-  margin: 1.5em 0; }
+  margin: 0; }
   .navbar-nav li {
     padding: 10px 10px;
     font-family: "Montserrat", sans-serif; }
@@ -55,7 +56,7 @@ strong {
 
 #hero-header {
   color: #fff;
-  margin: 17em 18px; }
+  margin: 200px 15px; }
 
 #hero-header h2 {
   font-weight: 300;
@@ -73,15 +74,13 @@ strong {
 .btn-dark {
   border-radius: 50px;
   text-align: center;
-  font-weight: 600;
-  font-size: 13px;
-  padding: 1px 30px;
+  padding: 1px 23px;
   margin-top: 10px;
   background-color: #2b2b2b;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  box-shadow: 1px 2px 19px 2px rgba(0, 0, 0, 0.35);
-  line-height: 50px; }
+  line-height: 50px;
+  font-size: 13px; }
 
 #hero {
   background-color: #0081FF;
@@ -115,7 +114,7 @@ strong {
 
 .hero-services {
   background-color: #007AF3;
-  padding: 50px 0;
+  padding: 10rem 0 10rem 0;
   color: #fff;
   font-family: "Montserrat", sans-serif; }
 
@@ -266,7 +265,7 @@ strong {
 
 #testimonial {
   padding: 140px 0;
-  background: url(assets/bg-client.jpg);
+  background: url("../assets/bg-client.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -472,7 +471,7 @@ strong {
   background-color: #E91E62; }
 
 #footer-contact {
-  background: url(assets/bg-contact.jpg);
+  background: url("../assets/bg-contact.jpg");
   background-repeat: no-repeat; }
 
 #conatact {
@@ -562,9 +561,7 @@ strong {
     color: #636363; }
   #footer-copyright .company {
     color: #626262; }
-    #footer-copyright a {
-       text-decoration: none; }
-  #footer-copyright a .back {
+  #footer-copyright .back {
     color: #464646; }
 
 /*# sourceMappingURL=style.css.map */
